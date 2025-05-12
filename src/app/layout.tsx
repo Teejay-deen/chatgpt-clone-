@@ -37,7 +37,7 @@ export default function RootLayout({
             <div>
 
             </div>
-          <div>
+          <div className="bg-[#212121] flex-1 overflow-hidden h-screen relative text-gray-200">
             {/* Header */}
             <Header />
            {children}
