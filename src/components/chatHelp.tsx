@@ -1,4 +1,5 @@
 import React from 'react'
+import { GiGraduateCap } from 'react-icons/gi'
 import { MdEditNote } from 'react-icons/md'
 import { PiLightbulb } from 'react-icons/pi'
 import { VscVscodeInsiders } from 'react-icons/vsc'
@@ -17,14 +18,14 @@ const ChatHelp = () => {
         IconColor:"#c285c7"
        },
         {
-        title:'Create Image',
+        title:'Summarize Text',
         Icon: <VscVscodeInsiders />,
-        IconColor:"#e2c541"
+        IconColor:"#e86060"
        },
         {
-        title:'Create Image',
-        Icon: <PiLightbulb />,
-        IconColor:"#e2c541"
+        title:'Code',
+        Icon: <GiGraduateCap />,
+        IconColor:"#76d0eb"
        },
     ]
   return (
