@@ -27,9 +27,24 @@ const ChatHelp = () => {
         Icon: <GiGraduateCap />,
         IconColor:"#76d0eb"
        },
+        {
+        title:'Help',
+        Icon: <GiGraduateCap />,
+        IconColor:"#76d0eb"
+       },
+       {
+        title:"More"
+       }
     ]
   return (
-    <div>chatHelp</div>
+    <div className='w-full flex flex-col md:flex-row gap-3 md:items-center justify-center'>
+      {chatData.map((item, index)=>(
+        <div key={index}>
+          {item?.Icon && <span className='text-xl ' style={{color: item?.IconColor}}>{item.Icon}</span>}
+          <p>{item.title}</p>
+        </div>
+      ))}
+    </div>
   )
 }
 
