@@ -7,6 +7,7 @@ import { VscVscodeInsiders } from 'react-icons/vsc'
 const ChatHelp = () => {
 
     const chatData = [
+      
         {
         title:'Create Image',
         Icon: <PiLightbulb />,
