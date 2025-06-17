@@ -40,9 +40,9 @@ const ChatHelp = () => {
   return (
     <div className='w-full flex flex-col md:flex-row gap-3 md:items-center justify-center'>
       {chatData.map((item, index)=>(
-        <div key={index}>
+        <div className='flex border py-2 px-4 rounded-full gap-2 hover:border-white/30 duration-300 border-b-gray-600 hover:bg-white/10  text-sm cursor-pointer justify-center items-center' key={index}>
           {item?.Icon && <span className='text-xl ' style={{color: item?.IconColor}}>{item.Icon}</span>}
-          <p>{item.title}</p>
+          <p className='items-center'>{item.title}</p>
         </div>
       ))}
     </div>
