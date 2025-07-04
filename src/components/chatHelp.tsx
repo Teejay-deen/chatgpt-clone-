@@ -8,7 +8,6 @@ const ChatHelp = () => {
 
     const chatData = [
         {
-          
         title:'Create Image',
         Icon: <PiLightbulb />,
         IconColor:"#e2c541"
