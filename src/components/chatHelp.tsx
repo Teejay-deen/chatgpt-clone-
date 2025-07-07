@@ -11,7 +11,6 @@ const ChatHelp = () => {
         title:'Create Image',
         Icon: <PiLightbulb />,
         IconColor:"#e2c541"
-        
        },
         {
         title:'Get Advice',
