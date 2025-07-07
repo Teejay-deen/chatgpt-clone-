@@ -5,11 +5,9 @@ import { ImArrowUpRight2 } from 'react-icons/im'
 import { TbPaperclip } from 'react-icons/tb'
 
 const ChatInput = () => {
-
     const [prompt , setPrompt] = useState("")
     
   return (
-    
     <div className='w-full flex flex-col gap-2 justify-center items-center max-w-3xl px-4  mx-auto pt-3'>
         <form className='bg-white/10 rounded-full flex items-center py-2.5 px-4 w-full'>
              <TbPaperclip className='text-2xl -rotate-45 text-white' />
