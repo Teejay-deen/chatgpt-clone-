@@ -6,6 +6,7 @@ import { FaPlus } from 'react-icons/fa'
 
 const NewChat = () => {
     const router =useRouter()
+    
     const createNewChat =async()=>{
         //creating a new chats id in firestore
         router.push("/chat/676767")
