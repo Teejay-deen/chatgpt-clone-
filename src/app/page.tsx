@@ -10,7 +10,6 @@ export default function Home() {
         <h2 className="text-xl md:text-3xl font-semibold px-4 text-white">
         What can i help you with?
          </h2>
-
        {/* chat input */}
        <ChatInput />
        <ChatHelp />
