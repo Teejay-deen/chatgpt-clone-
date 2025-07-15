@@ -14,7 +14,7 @@ const ChatInput = () => {
             <input onChange={(e)=> setPrompt(e.target.value)} value={prompt} className='text-white px-3 outline-none font-medium tracking-wide w-full placeholder:text-gray-400 bg-transparent ' type="text" placeholder='Message Fortress ChatGPT' name="" id="" />
             <button disabled={!prompt} className='rounded-full p-2.5 text-black bg-white disabled:bg-white/30'>
                 <ImArrowUpRight2 className='text-sm -rotate-45 text-black/80' />
-                
+          
             </button>
         </form>
         <p className='text-sm font-medium text-gray-400'>Fortress ChatGPT can make mistake. Check the important Info.</p>
