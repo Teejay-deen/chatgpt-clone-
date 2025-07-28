@@ -34,7 +34,6 @@ export default function RootLayout({
           <div className="bg-black text-gray-200 max-w-[250px] overflow-y-auto md:min-w-[220px] min-h-screen">
             <SideBar />
           </div>
-  
             <div>
             </div>
           <div className="bg-[#212121] flex-1 overflow-hidden h-screen relative text-gray-200">
