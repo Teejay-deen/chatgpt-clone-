@@ -12,6 +12,7 @@ const ChatHelp = () => {
         Icon: <PiLightbulb />,
         IconColor:"#e2c541"
        },
+       
         {
         title:'Get Advice',
         Icon: <MdEditNote />,
