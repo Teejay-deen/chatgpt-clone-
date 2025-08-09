@@ -2,4 +2,5 @@
 @tailwindcss base;
 @tailwindcss components;
 @tailwindcss utilities;
+
 @import 'tailwindcss';
