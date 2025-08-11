@@ -11,7 +11,6 @@ export default function Home() {
         What can i help you with?
          </h2>
        {/* chat input */}
-       
        <ChatInput />
        <ChatHelp />
       </div>
