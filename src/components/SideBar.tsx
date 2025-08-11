@@ -9,6 +9,7 @@ const SideBar = () => {
        <div className='flex items-center gap-1'>
          <Link className='border border-white/20 rounded-md text-white/50 hover:border-white/50 hover:text-white text-xs md:text-base p-1.5 md:p-2' href={"/"}>
          <IoHome /> 
+         
         </Link>
         <NewChat />
        </div>
